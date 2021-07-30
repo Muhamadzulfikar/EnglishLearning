@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.container{
+    width: 100%;
+    height: 657px;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 22px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_container{
+    width: 100%;
+    height: 430px;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+ul li:hover{
+    font-size: 25px;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-right: 200px;
+    font-size: 22px;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.caption{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.caption--class{
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: 600px;
+}
+
+.caption--pronunciation{
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.caption--speaking{
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: 550px;
+}
+
+.caption--grammar{
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: 580px;
+}
+
+.header{
+    font-size: 60px;
+    color: white;
+}
+
+.header--class{
+    font-size: 40px;
+    color: white;
+}
+
+.sub-caption{
+    margin-top: 18px;
+    margin-left: 60px;
+}
+
+.sub-caption--class{
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 330px;
+}
+
+.sub-caption--pronunciation{
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.sub-caption--speaking{
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 520px;
+}
+
+.sub-caption--vocabullary{
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.description{
+    font-size: 27px;
+    font-weight: normal;
+    color: white;
+}
+
+.description--class{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.btn{
+    margin-top: 35px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: #ff4133;
+    padding: 10px;
+    border: none;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    width: 230px;
+    font-size: 23px;
+}
+
+.img{
+    width: 570px;
+    height: 570px;
+    background-image: url('../img/sitting-1@2x.png');
+    position: absolute;
+    top: 65px;
+    left: 750px;
+    background-size: contain;
+    background-position-x: 10px;
+}
+
+.kelas{
+    color: black;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.card{
+    --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.28rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: none;
+}
+
+.card:hover{
+    --bg-opacity: 1;
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.card--text{
+    /* padding: 1rem; */
+    padding: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: -50px;
+}
+
+.card--text a{
+    text-decoration: none;
+    color: black;
+}
+
+.card--text a:hover{
+    color: #fff;
+}
+
+.pronunciation{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/how-to-improve-english-pronunciation.jpg); 
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 1px solid pink;
+}
+
+
+.speaking{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/public-speaking1200x600-848x400.png);
+    background-size: cover;
+    background-position: -70px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 1px solid greenyellow;
+}
+
+.vocabullary{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/maxresdefault.jpg); 
+    background-size: cover; 
+    background-position: -57px 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.grammar{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/68490-istock-693937658.jpg);
+    background-size: cover;
+    background-position: -53px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 1px solid green;
+}
+
+iframe{
+    /* width: 890px; */
+    width: 900px;
+    height: 450px;
+    padding: 40px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.captionVideo{
+    width: 800px;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.descriptionContainer{
+    width: 880px;
+    margin-left: 50px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.descriptionText{
+    line-height: 38px;
+}
+
+.descriptionText a{
+    color: royalblue;
+}
+
+.conten--container{
+    display: flex;
+}
+
+.material--container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.playlist{
+    border-right: 1px solid black;
+    width: 250px;
+    height: 760px;
+    overflow: scroll;
+    padding: 20px;
+}
+
+p.playlist--description{
+    margin: auto;
+}
+
+.playlist p{
+    width: 200px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.playlist a{
+    color: black;
+    text-decoration: none;
+}
+
+.playlist a:hover{
+    color: royalblue;
+}
+
+/* .material--video{
+    /* margin-left: 30px; */
